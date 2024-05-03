@@ -28,7 +28,7 @@ csapatok = sorted(csapatok, key = lambda x: (-x.osszpont(), x.osszido()))
 
 legjobb_csapat = csapatok[0]
 
-print(f'3.5. feladat: legjobb csapat: {legjobb_csapat.nev}\n\tA legjobb csapat elődöntös helyszíne: {legjobb_csapat.helyszin}\n\tA legjobb csapat osszpontszáma: {legjobb_csapat.osszpont()}')
+print(f'3.5. feladat: legjobb csapat: {legjobb_csapat.nev}\n\tA legjobb csapat elődöntős helyszíne: {legjobb_csapat.helyszin}\n\tA legjobb csapat összpontszáma: {legjobb_csapat.osszpont()}')
 
 mydict = {}
 
@@ -56,5 +56,6 @@ for i in csapatok:
 
 
 with open('tovabbjuto_csapatok.csv', 'w', encoding='UTF-8') as f:
+    f.write(f'Név;Helyszín;osszpont;osszido')
     for i in tovabbjuto_csapatok:
         f.write(f'{i.nev};{i.helyszin};{i.osszpont()};{i.osszido()}\n')
