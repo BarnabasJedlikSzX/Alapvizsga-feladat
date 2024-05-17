@@ -11,3 +11,13 @@ a{
 h1{
     text-align: center;
 }
+
+.card{
+    margin: auto!important;
+    border: 2px black solid!important;
+    margin-bottom: 10px!important;
+}
+
+hr{
+    border: 1px black solid!important;
+}
