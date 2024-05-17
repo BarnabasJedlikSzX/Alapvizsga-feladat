@@ -1,5 +1,14 @@
+*{
+    background-color: black!important;
+    color: white!important;
+}
+
+nav{
+    background-color: black!important;
+}
+
 a{
-    color: black!important;
+    color: white!important;
 }
 
 #kep{
@@ -14,7 +23,7 @@ h1{
 
 .card{
     margin: auto!important;
-    border: 2px black solid!important;
+    border: 2px white solid!important;
     margin-bottom: 10px!important;
 }
 
