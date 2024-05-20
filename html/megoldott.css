@@ -3,12 +3,7 @@
     color: white!important;
 }
 
-nav{
-    background-color: black!important;
-}
-
 a{
-    color: white!important;
     font-size: large;
 }
 
@@ -18,7 +13,16 @@ a{
     float: right;
 }
 
-.card{
-    margin: auto!important;
+h1{
+    text-align: center;
 }
 
+.card{
+    margin: auto!important;
+    border: 2px white solid!important;
+    margin-bottom: 10px!important;
+}
+
+hr{
+    border: 1px white solid!important;
+}
