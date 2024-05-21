@@ -56,6 +56,6 @@ for i in csapatok:
 
 
 with open('tovabbjuto_csapatok.csv', 'w', encoding='UTF-8') as f:
-    f.write(f'Név;Helyszín;osszpont;osszido')
+    f.write(f'Név;Helyszín;osszpont;osszido\n')
     for i in tovabbjuto_csapatok:
         f.write(f'{i.nev};{i.helyszin};{i.osszpont()};{i.osszido()}\n')
